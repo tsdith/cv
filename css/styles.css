@@ -61,6 +61,7 @@ th {
 }
 .btn {
   font-size: 16px;
+  border-radius: 12px;
 }
 .btn:hover {
   background-color: yellow;
