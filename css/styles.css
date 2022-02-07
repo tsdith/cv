@@ -3,7 +3,10 @@
     background-color: #EAF6F6;
   }
   h1 {
-      color: #66BFBF;
+    font-family: 'Montserrat-Black';
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 2;
   }
   h3 {
       color: #66BFBF;
@@ -13,8 +16,52 @@ hr {
   border-top-style: dotted;
   border-color: grey;
   border-width: 15px;
-  width: 15%;
+  width: 45%;
+  margin: 5% auto 5%;
 }
+
+td {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+th {
+  text-align: center;
+  line-height: 2;
+  font-size: 20px;
+}
+
 .circular {
   border-radius: 100%;
+
+}
+.books-teaching {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+#title-menu {
+
+}
+.welcome {
+  font-family: 'Sacramento', cursive;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+#work-experience {
+  padding-left: 30px;
+  padding-top: 30px;
+}
+#work-skills {
+  padding-left: 30px;
+  padding-top: 30px;
+}
+/* section hobbies */
+.hobbies {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.btn {
+  font-size: 16px;
+}
+.btn:hover {
+  background-color: yellow;
 }
